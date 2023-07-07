@@ -19,8 +19,7 @@ public class SellerTransformer {
     public static SellerResponseDto SellerToSellerResponseDto(Seller seller){
         return SellerResponseDto.builder()
                 .name(seller.getName())
-                .mobNo(seller.getMobNo())
-                .build();
+                .mobNo(seller.getMobNo()).build();
     }
 
 

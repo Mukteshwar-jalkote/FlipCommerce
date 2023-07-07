@@ -24,6 +24,5 @@ public interface SellerService {
     List<SellerResponseDto> getSellersWithLowestNumberOfProducts();
 
     List<SellerResponseDto> getSellersWithCostliestProducts();
-
     List<SellerResponseDto> getSellersWithCheapestProducts();
 }

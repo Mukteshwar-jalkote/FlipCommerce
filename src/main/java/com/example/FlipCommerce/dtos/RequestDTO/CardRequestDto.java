@@ -14,7 +14,8 @@ import java.sql.Date;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Builder
-public class CardRequestDto {
+public class CardRequestDto
+{
 
 
     String emailId;

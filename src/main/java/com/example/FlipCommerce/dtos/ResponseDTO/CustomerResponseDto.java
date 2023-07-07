@@ -15,6 +15,7 @@ public class CustomerResponseDto {
 
     String emailId;
 
+
     String mobNo;
 
 }

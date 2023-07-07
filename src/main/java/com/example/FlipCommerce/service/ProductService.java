@@ -21,7 +21,6 @@ public interface ProductService {
     List<ProductResponseDto> getKCheapestProductACategory(String category, int k);
 
     List<ProductResponseDto> getKCostliestProductACategory(String category, int k);
-
     List<ProductResponseDto> getAllProductOfASeller(String emailId);
 
     List<ProductResponseDto> getAllOutOfProductOfACategory(String category);

@@ -20,7 +20,6 @@ public class CustomerTransformer {
         return CustomerResponseDto.builder()
                 .name(customer.getName())
                 .emailId(customer.getEmailId())
-                .mobNo(customer.getMobNo())
-                .build();
+                .mobNo(customer.getMobNo()).build();
     }
 }

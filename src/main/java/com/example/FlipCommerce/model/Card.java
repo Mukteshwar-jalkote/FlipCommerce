@@ -18,8 +18,7 @@ import java.sql.Date;
 public class Card {
 
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
     @Column(name = "card_no")

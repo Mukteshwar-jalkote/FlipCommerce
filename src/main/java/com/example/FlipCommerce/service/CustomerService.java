@@ -8,7 +8,6 @@ import java.util.List;
 public interface CustomerService {
 
     public CustomerResponseDto addCustomer(CustomerRequestDto customerRequestDto);
-
     List<CustomerResponseDto> customerKOrders(int k);
 
     // List<CustomerResponseDto> getFemaleCustomerAgeBetween(int fromAge, int toAge);

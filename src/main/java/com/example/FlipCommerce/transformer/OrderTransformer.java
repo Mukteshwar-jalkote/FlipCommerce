@@ -36,7 +36,6 @@ public class OrderTransformer {
                 .customerName(orderEntity.getCustomer().getName())
                 .totalValue(orderEntity.getTotalValue())
                 .orderNo(orderEntity.getOrderNo())
-                .items(itemResponseDtos)
-                .build();
+                .items(itemResponseDtos).build();
     }
 }

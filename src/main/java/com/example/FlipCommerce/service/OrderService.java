@@ -19,6 +19,5 @@ public interface OrderService {
     List<OrderResponseDto> getOrderOfACustomer(String emailId);
 
     List<OrderResponseDto> getTopKOrderOfACustomer(String emailId, int k);
-
     List<OrderResponseDto> getKRecentlyOrderCustomer(String emailId, int k);
 }

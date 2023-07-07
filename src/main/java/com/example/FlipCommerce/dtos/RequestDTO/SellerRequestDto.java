@@ -13,7 +13,6 @@ public class SellerRequestDto {
     String name;
 
     String emailId;
-
     String mobNo;
 
 }

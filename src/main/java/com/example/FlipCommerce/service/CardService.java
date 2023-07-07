@@ -11,6 +11,5 @@ public interface CardService {
     public CardResponseDto addCard(CardRequestDto cardRequestDto);
 
     List<String> getMaxCardType();
-
     List<String> getMinCardType();
 }

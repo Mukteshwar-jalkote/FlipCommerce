@@ -9,6 +9,5 @@ import com.example.FlipCommerce.model.Item;
 public interface CartService {
 
     CartResponseDto addCart(Item item, ItemRequestDto itemRequestDto);
-
     public OrderResponseDto checkoutCart(CheckoutRequestDto checkoutRequestDto);
 }

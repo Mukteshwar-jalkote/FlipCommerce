@@ -12,7 +12,6 @@ import lombok.experimental.FieldDefaults;
 public class SellerResponseDto {
 
     String name;
-
     String mobNo;
 
 }

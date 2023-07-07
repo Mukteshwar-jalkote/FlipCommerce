@@ -14,7 +14,6 @@ public class ItemRequestDto {
     int productId;
 
     String customerEmailId;
-
     int requiredQuantity;
 
 }

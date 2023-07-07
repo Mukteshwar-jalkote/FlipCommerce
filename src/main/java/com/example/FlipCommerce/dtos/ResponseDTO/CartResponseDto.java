@@ -18,6 +18,8 @@ public class CartResponseDto {
 
     String customerName;
 
+
+
     List<ItemResponseDto> items = new ArrayList<>();
 
 }

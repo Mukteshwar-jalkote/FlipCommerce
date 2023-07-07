@@ -17,7 +17,6 @@ import java.util.List;
 @Table(name = "customer")
 @Builder
 public class Customer {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;

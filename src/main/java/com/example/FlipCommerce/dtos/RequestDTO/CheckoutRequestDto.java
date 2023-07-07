@@ -18,7 +18,6 @@ public class CheckoutRequestDto {
     String customerEmailId;
 
     String cardNo;
-
     int cvv;
 
 

@@ -20,7 +20,6 @@ public class ProductResponseDto {
     Category category;
 
     int price;
-
     ProductStatus productStatus;
 
 }

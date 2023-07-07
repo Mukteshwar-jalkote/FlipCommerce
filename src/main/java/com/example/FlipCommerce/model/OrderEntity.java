@@ -19,7 +19,6 @@ import java.util.List;
 @Builder
 public class OrderEntity {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;

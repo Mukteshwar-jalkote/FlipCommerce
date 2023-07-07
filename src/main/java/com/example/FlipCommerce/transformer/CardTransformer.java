@@ -21,8 +21,7 @@ public class CardTransformer {
         return CardResponseDto.builder()
                 .cardNo(card.getCardNo())
                 .cardType(card.getCardType())
-                .customerName(card.getCustomer().getName())
-                .build();
+                .customerName(card.getCustomer().getName()).build();
     }
 
 

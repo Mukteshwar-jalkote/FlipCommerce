@@ -13,7 +13,6 @@ import lombok.experimental.FieldDefaults;
 @Table(name = "item")
 @Builder
 public class Item {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;

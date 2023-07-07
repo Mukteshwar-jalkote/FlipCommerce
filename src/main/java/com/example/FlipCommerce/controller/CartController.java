@@ -42,8 +42,7 @@ public class CartController {
     public ResponseEntity checkoutCart(@RequestBody CheckoutRequestDto checkoutRequestDto){
 
         try {
-            OrderResponseDto orderResponseDto = cartService.checkoutCart(checkoutRequestDto);
-            return new ResponseEntity(orderResponseDto,HttpStatus.CREATED);
+            OrderResponseDto orderResponseDto = cartService.checkoutCart(checkoutRequestDto);return new ResponseEntity(orderResponseDto,HttpStatus.CREATED);
         }
         catch (RuntimeException e){
             return new ResponseEntity<>(e.getMessage(),HttpStatus.BAD_REQUEST);

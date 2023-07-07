@@ -24,8 +24,7 @@ public class CardController {
     public ResponseEntity addCard(@RequestBody CardRequestDto cardRequestDto){
 
         try {
-            CardResponseDto cardResponseDto = cardService.addCard(cardRequestDto);
-            return new ResponseEntity<>(cardResponseDto, HttpStatus.CREATED);
+            CardResponseDto cardResponseDto = cardService.addCard(cardRequestDto);return new ResponseEntity<>(cardResponseDto, HttpStatus.CREATED);
         }catch (CustomerNotFoundException e){
             return new ResponseEntity<>(e.getMessage(),HttpStatus.BAD_REQUEST);
         }

@@ -16,6 +16,7 @@ public class CardResponseDto {
 
     String cardNo;
 
+
     CardType cardType;
 
 }

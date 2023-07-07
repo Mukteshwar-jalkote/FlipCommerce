@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface CustomerRepository extends JpaRepository<Customer,Integer> {
-
     Customer findByEmailId(String emailId);
 
 //    @Query(value = "select * from customer where customer.gender = 'FEMALE' AND customer.age BETWEEN :fromAge AND :toAge",nativeQuery = true)

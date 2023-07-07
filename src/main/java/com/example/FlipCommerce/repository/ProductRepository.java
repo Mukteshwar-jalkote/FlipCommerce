@@ -8,7 +8,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface ProductRepository extends JpaRepository<Product,Integer> {
-
     List<Product> findByCategoryAndPrice(Category category,int price);
 
     @Query(value = "select * from product where product.category =:category",nativeQuery = true)

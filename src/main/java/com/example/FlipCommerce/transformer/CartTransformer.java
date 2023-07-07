@@ -21,8 +21,7 @@ public class CartTransformer {
         return CartResponseDto.builder()
                 .customerName(cart.getCustomer().getName())
                 .cartTotal(cart.getCartTotal())
-                .items(itemResponseDtos)
-                .build();
+                .items(itemResponseDtos).build();
 
 
 

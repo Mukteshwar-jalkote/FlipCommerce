@@ -17,7 +17,6 @@ import java.util.List;
 @Builder
 public class Seller {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;

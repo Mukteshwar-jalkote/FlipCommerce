@@ -23,7 +23,6 @@ public class OrderRequestDto {
     String cardNo;
 
     int cvv;
-
     int requiredQuantity;
 
 

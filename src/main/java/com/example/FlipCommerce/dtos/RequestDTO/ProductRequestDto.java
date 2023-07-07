@@ -19,7 +19,6 @@ public class ProductRequestDto {
     Integer price;
 
     Category category;
-
     Integer quantity;
 
 }

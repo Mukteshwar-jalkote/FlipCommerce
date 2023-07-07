@@ -8,7 +8,6 @@ import java.util.List;
 
 public interface OrderRepository extends JpaRepository<OrderEntity,Integer> {
 
-
     @Query(value = "SELECT MAX(total_value) FROM order_info",nativeQuery = true)
     int getMaxOrderValue();
 

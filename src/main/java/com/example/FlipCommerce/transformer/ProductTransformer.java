@@ -23,7 +23,6 @@ public class ProductTransformer {
                 .sellerName(product.getSeller().getName())
                 .price(product.getPrice())
                 .category(product.getCategory())
-                .productStatus(product.getProductStatus())
-                .build();
+                .productStatus(product.getProductStatus()).build();
     }
 }
